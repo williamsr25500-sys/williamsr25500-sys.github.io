@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cyber Security Lab</title>
+
+<style>
+body {
+background: #101820;
+color: white;
+font-family: Arial;
+text-align: center;
+padding: 30px;
+}
+
+.box {
+background: #243447;
+padding: 25px;
+border-radius: 15px;
+margin-top: 50px;
+}
+
+button {
+background: green;
+color: white;
+padding: 12px 25px;
+border: none;
+border-radius: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>Cyber Security Lab</h1>
+
+<p>Welcome to Ethical Hacking</p>
+
+<button onclick="showMessage()">
+Start Learning
+</button>
+
+<p id="result"></p>
+
+</div>
+
+<script>
+function showMessage() {
+document.getElementById("result").innerHTML =
+"Learn Ethical Hacking Safely!";
+}
+</script>
+
+</body>
+</html>
